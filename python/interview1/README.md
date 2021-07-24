@@ -4,6 +4,10 @@ got hired and fired not long after because wasn't expirienced enough and company
 
 accepts txt file into POST and scans it's contents, returns file's contents on GET
 
+---
+
+Простой рест на фласке, принимает в POST txt файл и сохраняет текст из него в бд, возвращает данные в GET
+
 pip install -r requirements.txt
 
 flask run
