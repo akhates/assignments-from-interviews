@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	body {
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	table, th, td {
+		border: 1px solid black;
+	}
+	h1 {
+		cursor: pointer;
+		user-select: none;
+	}
+
+	}
+	</style>
+    <title>Title</title>
+</head>
+<body>
+    <h1 onclick="showCatalog()">Sample catalog</h1>
+    <table id="catalog" style="visibility: hidden;">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Publisher
+                </th>
+                <th>
+                    Release date
+                </th>
+                <th>
+                    Pre-order
+                </th>
+                <th>
+                    Activation system
+                </th>
+                <th>
+                    Globality
+                </th>
+                <th>
+                    Promo
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    5678
+                </td>
+                <td>
+                    A Normal Lost Phone
+                </td>
+                <td>
+                    Plug In Digital
+                </td>
+                <td>
+                    26.01.2017
+                </td>
+                <td>
+                    No
+                </td>
+                <td>
+                    Steam Works
+                </td>
+                <td>
+                    Yes
+                </td>
+                <td>
+                    No
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4094
+                </td>
+                <td>
+                    Cities: Skylines
+                </td>
+                <td>
+                    Paradox Interactive
+                </td>
+                <td>
+                    10.03.2015
+                </td>
+                <td>
+                    No
+                </td>
+                <td>
+                    Steam Works
+                </td>
+                <td>
+                    No data
+                </td>
+                <td>
+                    No
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3191
+                </td>
+                <td>
+                    Kill it with Fire
+                </td>
+                <td>
+                    Tiny Build
+                </td>
+                <td>
+                    13.08.2020
+                </td>
+                <td>
+                    No
+                </td>
+                <td>
+                    Steam Works
+                </td>
+                <td>
+                    No data
+                </td>
+                <td>
+                    Yes
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<script>
+function showCatalog() {
+	document.getElementById("catalog").style.visibility = "visible";
+}
+</script>
+</body>
+</html>
