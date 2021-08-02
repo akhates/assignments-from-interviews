@@ -1,4 +1,6 @@
 bunch of tasks, didn't figured out second and third one
+part 1: <br />
+didn't translate it, just some simple styling but not sure if I did it right way, also I didn't comment CSS code
 
 part 2: <br />
 -- Create a query that will produce a result in the form of a table (not row!) <br />
