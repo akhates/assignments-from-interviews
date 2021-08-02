@@ -1,3 +1,0 @@
--- Create a query that will produce a result in the form of a table (not row!) 
--- Of 12 rows, each row has 2 columns, where first column contains month of the current year, and second one number of days in said month. 
--- Do not use any existing tables from the database in the query, including temporary ones, i.e. the query should work immediately from any SQL console.
