@@ -1,12 +1,11 @@
-Simple REST API made on flask with two endpoints I did for interview
+Простой рест на фласке с двумя эндпоинтами. 
 
-got hired and fired not long after because wasn't expirienced enough and company had tough deadlines to meet
+'/upload', methods=['POST'] принимает на вход txt файл, читает его и пишет данные в бд; <br />
+'/load', methods=['GET'] принимает на вход строку с именем файла, возвращает если находит таковой в бд 
 
-accepts txt file into POST and scans it's contents, returns file's contents on GET
+Наняли но потом уволили через две недели, у компании были дедлайны и разбиратся с джуном у них желания не было.
 
 ---
-
-Простой рест на фласке, принимает в POST txt файл и сохраняет текст из него в бд, возвращает данные в GET
 
 pip install -r requirements.txt
 
