@@ -1,8 +1,6 @@
-Simple requests for certain company's API, returns currency ratios and then converts it into xlsx file
+Простой запрос к ресту который возвращает текущие данные валют, после этого скрипт создает xlsx файл и пишет туда данные с ответа
 
-didn't got hired because I didn't do well on second part
-
-part of code and was removed for obivious reasons
+не наняли потому что не сделал фронт адаптивным
 
 ---
 
